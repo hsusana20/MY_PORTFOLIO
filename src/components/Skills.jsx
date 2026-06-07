@@ -4,10 +4,14 @@ const skillGroups = [
   {
     category: 'Frontend (Mobile & Web)',
     skills: [
-      { name: 'React Native (Expo Go)', level: 94 },
-      { name: 'Next.js / React', level: 95 },
-      { name: 'TypeScript', level: 95 },
-      { name: 'HTML & CSS', level: 95 },
+      { name: 'React Native (Expo Go)', level: 88 },
+      { name: 'Next.js / React', level: 88 },
+      { name: 'JavaScript', level: 80 },
+      { name: 'TypeScript', level: 88 },
+      { name: 'HTML & CSS', level: 90 },
+      { name: 'Tailwind', level: 88 },
+      { name: 'RESTful APIs', level: 82 },
+      { name: 'Git / GitHub', level: 85 },
     ],
   },
   {
@@ -21,8 +25,6 @@ const skillGroups = [
     category: 'Backend & Tools',
     skills: [
       { name: 'PHP / Laravel', level: 90 },
-      { name: 'JavaScript', level: 83 },
-      { name: 'REST API Integration', level: 85 },
       { name: 'Git / GitHub', level: 85 },
       { name: 'Firebase', level: 85 },
       { name: 'MySQL / PostgreSQL', level: 88 },

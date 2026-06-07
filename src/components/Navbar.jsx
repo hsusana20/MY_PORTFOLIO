@@ -63,7 +63,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="/resume.pdf"
+            href="/Resume_Heiro Usana.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
