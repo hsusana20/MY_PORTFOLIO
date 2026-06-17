@@ -104,7 +104,7 @@ export default function Hero() {
           <motion.div {...fade(0.5)} style={{
             display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '2rem',
           }}>
-            {['Front-end DEV', 'Mobile & Web', 'UI/UX'].map(tag => (
+            {['Full-stack DEV', 'Mobile & Web', 'UI/UX'].map(tag => (
               <span key={tag} className="tag">{tag}</span>
             ))}
           </motion.div>
