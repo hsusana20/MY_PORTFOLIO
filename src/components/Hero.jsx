@@ -81,7 +81,7 @@ export default function Hero() {
             fontWeight: 900,
             lineHeight: 1.05,
             letterSpacing: '-2px',
-            color: '#f2f2f2',
+            color: '#888',
             marginBottom: '0.4rem',
           }}>
             Hi, I'm
@@ -96,8 +96,8 @@ export default function Hero() {
             color: '#f2f2f2',
             marginBottom: '1.5rem',
           }}>
-            <em style={{ fontStyle: 'italic', color: '#888' }}>Heiro</em>{' '}
-            <span style={{ WebkitTextStroke: '1px #f2f2f2', color: 'transparent' }}>Usana</span>
+            <em style={{ fontStyle: 'italic', color: '#f2f2f2' }}>Heiro</em>{' '}
+            <span style={{ fontStyle: 'italic', color: '#f2f2f2' }}>Usana</span>
           </motion.h1>
 
 
@@ -177,7 +177,7 @@ export default function Hero() {
               alt="Heiro S. Usana"
               style={{
                 width: '100%', height: '100%',
-                objectFit: 'cover', objectPosition: 'top center',
+                objectFit: 'cover', objectPosition: 'center 30%',
                 filter: 'grayscale(20%) contrast(0.85) brightness(1.10)',
                 display: 'block',
               }}

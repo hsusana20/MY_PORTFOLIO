@@ -63,21 +63,52 @@ export default function Contact() {
             </motion.p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginBottom: '3rem' }}>
-              {[
-                { icon: Mail, label: 'Email', value: 'heirousana27@gmail.com' },
-                { icon: MapPin, label: 'Location', value: 'Villamor, Pasay City, PH' },
-                { icon: Clock, label: 'Timezone', value: 'PHT (UTC+8)' },
-              ].map(({ icon: Icon, label, value }) => (
-                <motion.div key={label} {...fadeUp(0.15)} style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                  <div style={{ width: '36px', height: '36px', border: '0.5px solid #2a2a2a', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                    <Icon size={14} color="#555" />
+             {[
+              { icon: Mail, label: 'Email', value: 'heirousana27@gmail.com' },
+              { icon: MapPin, label: 'Location', value: 'Villamor, Pasay City, PH' },
+              { icon: Clock, label: 'Timezone', value: 'PHT (UTC+8)' },
+            ].map(({ icon: Icon, label, value }) => (
+              <motion.div 
+                key={label} 
+                {...fadeUp(0.15)} 
+                style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '1rem' 
+                }}
+              >
+                <div style={{ 
+                  width: '36px', 
+                  height: '36px', 
+                  border: '0.5px solid #2a2a2a', 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  justifyContent: 'center', 
+                  flexShrink: 0 
+                }}>
+                  <Icon size={14} color="#555" />
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                  <div style={{ 
+                    fontSize: '13px', 
+                    letterSpacing: '2px', 
+                    textTransform: 'uppercase', 
+                    color: '#444', 
+                    marginBottom: '2px',
+                    lineHeight: 1.2,
+                  }}>
+                    {label}
                   </div>
-                  <div>
-                    <div style={{ fontSize: '13px', letterSpacing: '2px', textTransform: 'uppercase', color: '#444', marginBottom: '2px' }}>{label}</div>
-                    <div style={{ fontSize: '15px', color: '#bbb' }}>{value}</div>
+                  <div style={{ 
+                    fontSize: '15px', 
+                    color: '#bbb',
+                    lineHeight: 1.3,
+                  }}>
+                    {value}
                   </div>
-                </motion.div>
-              ))}
+                </div>
+              </motion.div>
+            ))}
             </div>
 
             <motion.div {...fadeUp(0.3)} style={{ border: '0.5px solid #1c1c1c', padding: '1.25rem', background: '#0f0f0f' }}>

@@ -5,6 +5,7 @@ const projects = [
   {
     num: '01',
     title: 'Pinya.io Mobile App',
+    logo: '/public/PINYA.png',
     bullets: [
       'Tested and refined UI/UX of the Pinya.io mobile app using React Native (Expo Go)',
       'Implemented REST API integrations for authentication and data-driven features',
@@ -86,14 +87,23 @@ export default function Projects() {
           onMouseEnter={e => e.currentTarget.style.borderColor = '#3a3a3a'}
           onMouseLeave={e => e.currentTarget.style.borderColor = '#1c1c1c'}
         >
-          <div style={{
+         <div style={{
             background: '#0f0f0f', aspectRatio: '4/3',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             borderRight: '0.5px solid #1c1c1c', position: 'relative', overflow: 'hidden',
           }}>
-            <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '100px', color: '#1c1c1c', fontWeight: 900, userSelect: 'none' }}>
-              01
-            </div>
+            {projects[0].logo ? (
+              <img
+                src={projects[0].logo}
+                alt={`${projects[0].title} logo`}
+                style={{ width: '50%', objectFit: 'contain' }}
+              />
+            ) : (
+              <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '100px', color: '#1c1c1c', fontWeight: 900, userSelect: 'none' }}>
+                {projects[0].num}
+              </div>
+
+            )}
             <span style={{
               position: 'absolute', top: '1rem', left: '1rem',
               fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase',
