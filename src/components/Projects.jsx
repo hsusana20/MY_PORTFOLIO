@@ -5,7 +5,7 @@ const projects = [
   {
     num: '01',
     title: 'Pinya.io Mobile App',
-    logo: '/public/PINYA.png',
+    logo: '/PINYA.png',
     bullets: [
       'Tested and refined UI/UX of the Pinya.io mobile app using React Native (Expo Go)',
       'Implemented REST API integrations for authentication and data-driven features',
