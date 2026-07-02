@@ -246,7 +246,7 @@ export default function Hero() {
             }}
           >
             <div style={{ fontSize: '12px', letterSpacing: '2px', textTransform: 'uppercase', color: '#444' }}>Honors</div>
-            <div style={{ fontSize: '12px', color: '#bbb', marginTop: '2px' }}>Cum Laude🎓</div>
+            <div style={{ fontSize: '12px', color: '#bbb', marginTop: '2px' }}>Academic Distinction🎓</div>
           </motion.div>
         </motion.div>
       </div>

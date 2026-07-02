@@ -41,7 +41,7 @@ export default function About() {
             </motion.p>
 
             <motion.p {...fadeUp(0.2)} style={{ color: '#666', lineHeight: 1.9, marginBottom: '1.5rem', fontSize: '14px' }}>
-               I'm a Cum Laude graduate from Asia Pacific College Bachelor of Science Information Technology with a specialization in Mobile and Internet. I completed my internship as a Mobile Front-End Developer at Studio Pinya, where I worked with React Native, Next.js, and TypeScript to build and refine the Pinya.io mobile application.
+               I'm a Academic Distinction graduate from Asia Pacific College Bachelor of Science Information Technology with a specialization in Mobile and Internet. I completed my internship as a Mobile Front-End Developer at Studio Pinya, where I worked with React Native, Next.js, and TypeScript to build and refine the Pinya.io mobile application.
             </motion.p>
 
             <motion.p {...fadeUp(0.3)} style={{ color: '#666', lineHeight: 1.9, fontSize: '14px', marginBottom: '2.5rem' }}>
