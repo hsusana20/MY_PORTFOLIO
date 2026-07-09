@@ -10,6 +10,7 @@ const skillGroups = [
       { name: 'TypeScript', level: 88 },
       { name: 'HTML & CSS', level: 90 },
       { name: 'Tailwind', level: 88 },
+      { name: 'Vite', level: 80 },
       { name: 'RESTful APIs', level: 82 },
       { name: 'Git / GitHub', level: 85 },
     ],
@@ -44,7 +45,7 @@ const skillGroups = [
 
 const techStack = [
   'React Native', 'Next.js', 'TypeScript', 'JavaScript', 'PHP',
-  'Laravel', 'HTML', 'CSS', 'Figma', 'Expo Go',
+  'Laravel', 'HTML', 'CSS', 'Figma', 'Expo Go', 'Vite',
   'Android Studio', 'Git', 'REST API', 'UI/UX', 'Tailwind', 'Firebase', 'MySQL', 'PostgreSQL',
 ]
 
